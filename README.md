@@ -1,58 +1,51 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://github.com/killukeren/bac-lab" target="_blank"><img src="https://akmweb.youngjoygame.com/web/gms/image/24c43180662d27aa5b62106b596fa4f7.webp" width="400" alt="BAC LAB Logo" style="border-radius: 20px;"></a></p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="#"><img src="https://img.shields.io/badge/Version-1.0.0--beta-blue" alt="Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/Laravel-11.x-red" alt="Laravel Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/Security-Research-blueviolet" alt="Security Research"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
 </p>
 
-## About Laravel
+About BAC-LAB
+BAC-LAB adalah platform strategi chat khusus squad Mobile Legends yang dibangun dengan Laravel. Berbeda dengan aplikasi chat biasa, proyek ini dirancang sebagai Laboratorium Keamanan Web untuk mendemonstrasikan celah Broken Access Control (BAC) dan Insecure Direct Object Reference (IDOR) dalam lingkungan yang terkendali.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Kami percaya bahwa cara terbaik untuk memahami keamanan adalah dengan membangun (dan mencoba menembus) sistem secara langsung. BAC-LAB menyediakan fitur:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Expressive Routing: Menggunakan UUID untuk navigasi profil yang dinamis.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Strategize & Chat: Interface modern untuk diskusi draft pick dan analisis meta.
 
-## Learning Laravel
+Vulnerable Architecture: Didesain sengaja dengan celah keamanan pada logika otorisasi untuk tujuan riset.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Tailwind-Powered UI: Tampilan futuristik dengan tema gelap (dark mode) ala game kompetitif.
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Learning Security with BAC-LAB
+BAC-LAB memiliki dokumentasi internal sederhana untuk membantu researcher pemula memahami bagaimana celah keamanan muncul:
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+Cara Kerja Broken Access Control.
 
-## Agentic Development
+Mengidentifikasi IDOR pada API Endpoints.
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+Implementasi UUID vs Integer IDs.
 
-```bash
-composer require laravel/boost --dev
+Project Setup
+Struktur BAC-LAB mengikuti konvensi Laravel standar, membuatnya mudah dipasang untuk keperluan demo atau pengujian:
 
-php artisan boost:install
-```
+Bash
+# Clone the lab
+git clone https://github.com/killukeren/bac-lab.git
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+# Install dependencies
+composer install && npm install
 
-## Contributing
+# Setup environment & database
+php artisan migrate --seed
+Security Vulnerabilities
+Jika kamu menemukan celah keamanan yang tidak sengaja dibuat (di luar celah edukasi BAC yang sudah ada), silakan buka Issue atau hubungi maintainer di repo ini. Semua riset keamanan sangat dihargai untuk pengembangan lab ini lebih lanjut.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Contributing
+Terima kasih telah tertarik untuk berkontribusi pada pengembangan BAC-LAB! Kamu bisa membantu dengan menambahkan fitur chat baru, memperbaiki UI, atau menambahkan skenario celah keamanan baru.
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+License
+BAC-LAB adalah software open-source yang dilisensikan di bawah MIT license.
