@@ -20,13 +20,10 @@ BAC-LAB adalah platform strategi chat khusus squad Mobile Legends yang dibangun 
 
 
 # Project Setup
-Struktur BAC-LAB mengikuti konvensi Laravel standar, membuatnya mudah dipasang untuk keperluan demo atau pengujian:
-
-
-# Clone the lab
+## Clone the lab
 git clone https://github.com/killukeren/bac-lab.git
 
-# Install dependencies
+## Install dependencies
 composer install && npm install
 
 - edit pada bagian .env dengan
