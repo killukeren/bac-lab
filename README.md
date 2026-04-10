@@ -7,10 +7,10 @@
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
 </p>
 
-About BAC-LAB
-BAC-LAB adalah platform strategi chat khusus squad Mobile Legends yang dibangun dengan Laravel. Berbeda dengan aplikasi chat biasa, proyek ini dirancang sebagai Laboratorium Keamanan Web untuk mendemonstrasikan celah Broken Access Control (BAC) dan Insecure Direct Object Reference (IDOR) dalam lingkungan yang terkendali.
+#About BAC-LAB
+BAC-LAB adalah platform strategi chat khusus squad Mobile Legends yang dibangun dengan Laravel. Berbeda dengan aplikasi chat biasa, proyek ini dirancang sebagai Laboratorium Keamanan Web untuk mendemonstrasikan celah Broken Access Control (BAC) dan Insecure Direct Object Reference (IDOR).
 
-Kami percaya bahwa cara terbaik untuk memahami keamanan adalah dengan membangun (dan mencoba menembus) sistem secara langsung. BAC-LAB menyediakan fitur:
+#BAC-LAB menyediakan fitur:
 
 Expressive Routing: Menggunakan UUID untuk navigasi profil yang dinamis.
 
