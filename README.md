@@ -1,4 +1,5 @@
 <p align="center"><a href="https://github.com/killukeren/bac-lab" target="_blank"><img src="https://akmweb.youngjoygame.com/web/gms/image/24c43180662d27aa5b62106b596fa4f7.webp" width="400" alt="BAC LAB Logo" style="border-radius: 20px;"></a></p>
+<!--Dari https://www.mobilelegends.com/-->
 
 <p align="center">
 <a href="#"><img src="https://img.shields.io/badge/Version-1.0.0--beta-blue" alt="Version"></a>
@@ -7,7 +8,7 @@
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
 </p>
 
-# About BAC-LAB
+# About BAC-LAB (MLBB CHAT)
 BAC-LAB adalah platform strategi chat khusus squad Mobile Legends yang dibangun dengan Laravel. Berbeda dengan aplikasi chat biasa, proyek ini dirancang sebagai Laboratorium Keamanan Web untuk mendemonstrasikan celah Broken Access Control (BAC) dan Insecure Direct Object Reference (IDOR).
 
 # BAC-LAB menyediakan fitur:
